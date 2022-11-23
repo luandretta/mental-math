@@ -6,22 +6,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/5a751252a7.js" crossorigin="anonymous"></script>
     <title>Mental Math</title>
 </head>
 
 <body>
     <header>
-        <h1><span class="two-colors">Mental Math</span><i class="fa-solid fa-calculator-simple"></i></h1>
+        <h1 class="two-colors">Mental Math</h1>
+        <p id="crown"><i class="fa-solid fa-crown fa-4x"></i></p>
     </header>
+    
     <section>
         <div>
             <p>Are you ready for this challenge?</p>
             <p>What do you want to learn today?</p>
             <div class="choice">
-                <button id="addition"><i class="fa-solid fa-square-plus"></i></button>
-                <button id="subtract"><i class="fa-solid fa-square-minus"></i></button>
-                <button id="multiply"><i class="fa-solid fa-square-xmark"></i></button>
-                <button id="division"><i class="fa-solid fa-square-divide"></i></button>
+                <button data-type="addition"><i class="fas fa-plus fa-3x"></i></button>
+                <button data-type="subtract"><i class="fas fa-minus fa-3x"></i></button>
+                <button data-type="multiply"><i class="fas fa-xmark fa-3x"></i></button>
+                <button data-type="division"><i class="fas fa-divide fa-3x"></i></button> 
             </div>
         </div>
 
